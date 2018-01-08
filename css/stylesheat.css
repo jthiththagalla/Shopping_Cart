@@ -7,31 +7,52 @@
     position: relative;
 }
 
+h1.product
+{
+    font-size: 5px;
+    color: #1a8cff;
+    align-content: center;
+}
+
 #Content
 {
     border: 1px solid blue;
     position: relative;
     height: 300px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: auto;
+    
 }
 
 #divA
 {
     border: 1px solid red;
-    position: absolute;
-    margin-right: 25px;
-    left: 5px;
-    top: 5px;
-    bottom: 5px;
-    right: 70%;
+    float: left; 
+    height: 300px;
+    width: 300px;
+    background-color:  #d9d9d9;  
+    
 }
 
 #divB
 {
     border: 1px solid green;
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    bottom: 5px;
-    left: 30%;
-    margin-left: 25px;
+    float:left;
+    height: 300px;
+    width: 300px;
+    background-color:#ff99ff;
+    
+}
+
+#divC
+{
+    border: 1px solid blueviolet;
+    float: left; 
+    height: 300px;
+    width: 300px;
+    background-color:  #ffff80;
+    
 }

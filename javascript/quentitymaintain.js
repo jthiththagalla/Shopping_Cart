@@ -5,9 +5,22 @@
  */
 function incrementValue()
 {
-    var value = parseInt(document.getElementById('number').value, 10);
-    value = isNaN(value) ? 0 : value;
+    var value = document.getElementById("quentity").innerHTML;
     value++;
-    document.getElementById('number').value = value;
+    document.getElementById("quentity").innerHTML= value;
+    if(value > 10){
+        alert("Max value is 10");
+        document.getElementById("quentity").innerHTML= 10;
+    }
 }
 
+function decrementValue()
+{
+    var value = document.getElementById("quentity").innerHTML;
+    value--;
+    document.getElementById("quentity").innerHTML= value;
+    if(value < 0){
+        alert("Minimum value is 0");
+        document.getElementById("quentity").innerHTML= 0;
+    }
+}

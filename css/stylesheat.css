@@ -1,10 +1,9 @@
 #Header
 {
-    height: 50px;
+    height: 70px;
     width: 100%;
     background-color: #99ddff;
     border: 1px solid blue;
-    position: relative;
 }
 
 h1.product
@@ -14,45 +13,109 @@ h1.product
     align-content: center;
 }
 
-#Content
+#content
 {
     border: 1px solid blue;
-    position: relative;
-    height: 300px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin: auto;
+    min-height: 300px;    
+    overflow: hidden;
+    width: 928px;
+    padding: 10px;
+    margin: 15px auto;
+}
+
+.block
+{
+    float: left; 
+    height: auto;
+    width: 300px;
+    border: 1px solid red;
+    background-color:  #d9d9d9;  
+}
+
+.block h2{
+    color: crimson;
+    padding-left: 5px;
     
 }
 
-#divA
-{
-    border: 1px solid red;
-    float: left; 
-    height: 300px;
-    width: 300px;
-    background-color:  #d9d9d9;  
+.block h4{
+    color: black;
+    padding-left: 5px;
     
+}
+
+.block img{
+    width: 280px;
+    
+}
+
+.imageDiv{
+    margin: 0 auto;
+    width: 280px;
+}
+
+.blockContentDiv{
+    margin: 5 auto;
+    width: 280px;
+    margin-bottom: 10px;
+    
+}
+
+.blockContentDiv th{
+    padding-left: 0px;
+    color: cadetblue;
+}
+
+.blockContentDiv td{
+    padding-left: 10px;
+    color: cadetblue;
+}
+
+.qtyButton {
+    
+    width: 15px;
+    height: 15px;
+    border: 2px solid black;
+    float: left;
+    text-align: center;
+    margin: 0 4px 0 4px;
+    line-height: 13px;
+    color: black;
+    background-color: #99ddff;
+}
+
+.qtyButton:hover{
+    background-color: #ccffff;
+    cursor: pointer; 
+}
+
+.qty {
+    
+    width: 15px;
+    height: 15px;
+    float: left;
+    text-align: center;
+    margin: 0 0px 0 0px;
+}
+
+#blockB
+{
+    margin-left: 10px;
+   margin-right: 10px;
+
+    /*border: 1px solid red;
+    background-color:  #d9d9d9;  
+    */
 }
 
 #divB
 {
     border: 1px solid green;
-    float:left;
-    height: 300px;
-    width: 300px;
     background-color:#ff99ff;
-    
 }
 
 #divC
 {
     border: 1px solid blueviolet;
-    float: left; 
-    height: 300px;
-    width: 300px;
     background-color:  #ffff80;
-    
 }

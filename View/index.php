@@ -5,9 +5,22 @@
         <link rel="stylesheet" href="../css/stylesheat.css" type="text/css"/>
         <script src="../javascript/quentitymaintain.js"></script>
     </head>
-    <body>   
+    <body>  
         <div id="Header">
             <h1>Shopping Cart</h1>
+        </div>
+        </div>
+        <div id="perchaceInfo">
+        <h2>Perchasing Details</h2>
+                <hr/>
+            <table>
+                <tr>
+                    <td>Item :</td>
+                    <td>Item Price :</td>
+                    <td>Quentity :</td>
+                    <td>Cost :</td>
+                </tr>
+            </table>    
         </div>
         <div id="content">
             <div class="block">
@@ -110,6 +123,5 @@
 
 
             </div>
-        </div>
     </body>
 </html>

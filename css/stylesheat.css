@@ -20,7 +20,7 @@ h1.product
     overflow: hidden;
     width: 928px;
     padding: 10px;
-    margin: 15px auto;
+    margin: 15px;
 }
 
 .block
@@ -118,4 +118,15 @@ h1.product
 {
     border: 1px solid blueviolet;
     background-color:  #ffff80;
+}
+
+#perchaceInfo
+{
+    float: left; 
+    min-height: 300px;
+    width: 300px;
+    overflow: hidden;
+    margin: 15px;
+    border: 1px solid rgb(245, 110, 110);
+    background-color:  #f3f3eb;
 }

@@ -33,9 +33,9 @@
                                 Quantity :
                             </td> 
                             <td>
-                                <div class="qtyButton" onclick="incrementValue()">+</div>
-                                <span id="quentity" class="qty">0</span>
-                                <div class="qtyButton" onclick="decrementValue()">-</div>
+                                <div class="qtyButton" onclick="incrementValue('quentity1')">+</div>
+                                <span id="quentity1" class="qty">0</span>
+                                <div class="qtyButton" onclick="decrementValue('quentity1')">-</div>
                             </td>
 
                         </tr>
@@ -66,9 +66,9 @@
                                 Quantity :
                             </td> 
                             <td>
-                                <div class="qtyButton" onclick="incrementValue()">+</div>
-                                <span id="quentity" class="qty">0</span>
-                                <div class="qtyButton" onclick="decrementValue()">-</div>
+                                <div class="qtyButton" onclick="incrementValue('quentity2')">+</div>
+                                <span id="quentity2" class="qty">0</span>
+                                <div class="qtyButton" onclick="decrementValue('quentity2')">-</div>
                             </td>
 
                         </tr>
@@ -99,9 +99,9 @@
                                 Quantity :
                             </td> 
                             <td>
-                                <div class="qtyButton" onclick="incrementValue()">+</div>
-                                <span id="quentity" class="qty">0</span>
-                                <div class="qtyButton" onclick="decrementValue()">-</div>
+                                <div class="qtyButton" onclick="incrementValue('quentity3')">+</div>
+                                <span id="quentity3" class="qty">0</span>
+                                <div class="qtyButton" onclick="decrementValue('quentity3')">-</div>
                             </td>
 
                         </tr>

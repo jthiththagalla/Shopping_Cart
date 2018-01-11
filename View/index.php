@@ -16,7 +16,7 @@
             <table class="table" >
                 <tr>
                     <th>Item</th>
-                    <th>Item Price</th>
+                    <th style="{display:block;}">Item Price</th>
                     <th>Quentity</th>
                     <th>Cost</th>
                 </tr>
@@ -55,6 +55,7 @@
                 </tr>
                 <tr>
                     <td id="tableTotal" colspan="3">Total</td>
+                    <td id="tableTotal">Rs.203660</td>
                 </tr>                              
             </table>    
         </div>

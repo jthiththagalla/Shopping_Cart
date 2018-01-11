@@ -189,7 +189,15 @@ h1.product
     height: 15px;
 }
 
+.table img:hover
+{
+    cursor: pointer; 
+}
+
+ 
+
 #tableTotal
 {
     text-align: center;
+    text-underline-position: below;
 }

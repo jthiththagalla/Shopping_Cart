@@ -16,7 +16,7 @@
             <table class="table" >
                 <tr>
                     <th>Item</th>
-                    <th style="{display:block;}">Item Price</th>
+                    <th style=display:block;>Item Price</th>
                     <th>Quentity</th>
                     <th>Cost</th>
                 </tr>

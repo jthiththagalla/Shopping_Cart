@@ -4,6 +4,13 @@
     width: 100%;
     background-color: #99ddff;
     border: 1px solid blue;
+    padding-left: 15px;
+}
+
+#body
+{
+    padding: 0%;
+    margin: 0%;
 }
 
 h1.product
@@ -82,12 +89,22 @@ h1.product
     line-height: 13px;
     color: black;
     background-color: #99ddff;
+
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */    
 }
 
 .qtyButton:hover{
     background-color: #ccffff;
     cursor: pointer; 
 }
+
+.qtyButton:active { 
+    background-color: yellow;
+}  
+
 
 .qty {
     
@@ -120,13 +137,59 @@ h1.product
     background-color:  #ffff80;
 }
 
-#perchaceInfo
+.perchaceInfo
 {
     float: left; 
     min-height: 300px;
-    width: 300px;
+    min-width: 370px;
+    max-width: 370px;
     overflow: hidden;
-    margin: 15px;
+    margin: 15px 10px auto 0px;
     border: 1px solid rgb(245, 110, 110);
-    background-color:  #f3f3eb;
+    background-color:  #f3f3eb;  
+}
+
+.perchaceInfo h2
+{
+    text-align: center;
+}
+
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 94%;
+    margin: 3%;
+    padding: 5px;
+}
+
+.table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 12px;
+    
+}
+
+.table th {
+    border: 1px solid #da8888;
+    text-align: left;
+    padding: 2px;
+    background-color: #f16363;
+    font-size: 14px;
+    
+}
+
+.table tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.table img
+{
+    width: 15px;
+    height: 15px;
+}
+
+#tableTotal
+{
+    text-align: center;
 }

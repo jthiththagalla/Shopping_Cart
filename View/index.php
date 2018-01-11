@@ -5,21 +5,57 @@
         <link rel="stylesheet" href="../css/stylesheat.css" type="text/css"/>
         <script src="../javascript/quentitymaintain.js"></script>
     </head>
-    <body>  
+    <body id="body">  
         <div id="Header">
             <h1>Shopping Cart</h1>
         </div>
         </div>
-        <div id="perchaceInfo">
+        <div class="perchaceInfo">
         <h2>Perchasing Details</h2>
                 <hr/>
-            <table>
+            <table class="table" >
                 <tr>
-                    <td>Item :</td>
-                    <td>Item Price :</td>
-                    <td>Quentity :</td>
-                    <td>Cost :</td>
+                    <th>Item</th>
+                    <th>Item Price</th>
+                    <th>Quentity</th>
+                    <th>Cost</th>
                 </tr>
+                <tr>
+                    <td>Samsung Galaxy S4</td>
+                    <td>Rs.56760</td>
+                    <td>1</td>
+                    <td>Rs.56760</td>
+                    <td>
+                        <div>
+                            <img src="../images/close.png">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Samsung Galaxy S5</td>
+                    <td>Rs.66000</td>
+                    <td>1</td>
+                    <td>Rs.66000</td>
+                    <td>
+                        <div>
+                            <img src="../images/close.png">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Samsung Galaxy S6</td>
+                    <td>Rs.80990</td>
+                    <td>1</td>
+                    <td>Rs.80990</td>
+                    <td>
+                        <div>
+                            <img src="../images/close.png">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="tableTotal" colspan="3">Total</td>
+                </tr>                              
             </table>    
         </div>
         <div id="content">

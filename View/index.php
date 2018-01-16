@@ -2,13 +2,19 @@
 <html>
     <head>
         <title>Shopping Cart</title>
+        <link rel="stylesheet" href="../css/navbartop.css" type="text/css">
         <link rel="stylesheet" href="../css/stylesheat.css" type="text/css"/>
         <script src="../javascript/quentitymaintain.js"></script>
     </head>
     <body id="body">  
-        <div id="Header">
-            <h1>Shopping Cart</h1>
-        </div>
+     <div class="navbar">
+        <ul>
+             <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a class="active" href="#home">Home</a></li> 
+        </ul>
+    </div>
         </div>
         <div class="perchaceInfo">
         <h2>Perchasing Details</h2>
